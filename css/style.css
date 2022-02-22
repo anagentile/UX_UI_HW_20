@@ -40,6 +40,8 @@ body{
     margin: 0px 17px;
   }
   
+  /* Jumbotron */
+
   .cover{
       display: flex;
       flex-direction: row;
@@ -72,6 +74,8 @@ body{
     padding: 2%;
     font-weight:500;
 }
+
+/* Overview */
 
 .overview{
     display: flex;
@@ -125,6 +129,8 @@ body{
     font-weight:700;
 }
 
+/* Design Process */
+
 .DesignProcess{
     display: flex;
     flex-direction: row;
@@ -174,6 +180,8 @@ body{
     color: white;
 }
 
+/* Empathize */
+
 .titlemp h1{
     text-align: center;
     justify-content: center;
@@ -210,6 +218,8 @@ body{
     font-weight: 200;
 }
 
+/* User Path */
+
 .upcontent{
     display: flex;
     flex-direction: column;
@@ -229,10 +239,138 @@ body{
     width: 80%;
 }
 
-.sub{
-    font-size: 12px;
+.sub {
+    font-size: 15px !important;
     font-weight: 200;
     color: gray;
     justify-items: center;
     text-align: center;
+    margin-top: 40px;
+}
+
+p.sub{
+    margin-top: 40px;
+}
+
+/* Heuristics  */
+.customhe{
+    background-color: white}
+
+
+.hecontent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.hecontent p{
+    font-size: 20px;
+    padding: 0.5%;
+    font-weight: 200;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    width: 80%;
+}
+
+p.sub{
+    margin-top: 32px;
+}
+
+/* Usability Testing */
+.customut{
+    background-color: rgba(137, 160, 181, 1)}
+
+.utcontent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.utcontent p{
+    font-size: 20px;
+    padding: 0.5%;
+    font-weight: 200;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    width: 80%;
+    color: white;
+}
+
+.imgUt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgUt img{
+    padding: 2%;
+}
+
+/* Priority Matrix */
+.pmcontent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.pmcontent img{
+    padding: 5%;
+    margin: 44px;
+}
+
+.pmcontent p{
+    font-size: 20px;
+    padding: 0.5%;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 56px;
+    width: 80%;
+    color: white;
+}
+
+/* Define */
+
+.dcontent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.dcontent p{
+    font-size: 20px;
+    padding: 0.5%;
+    font-weight: 200;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    width: 80%;
+}   
+
+.titlede h1{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    align-self: center;
+    margin-top: 32px;
+    margin-bottom: 80px;
+} 
+
+/* Problem Statement */
+
+.pscontent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.customps{
+    background: linear-gradient(90deg, rgba(218, 185, 228, 0.8) 1.69%, rgba(218, 185, 228, 0.8) 27.14%, rgba(244, 241, 255, 0.8) 71.76%);
+    padding: 2%;
 }
