@@ -1,0 +1,238 @@
+/* Text */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Nav General */
+
+.customNav {
+    position: fixed;
+    width: 100%;
+    background: url("../images/transparency.svg");
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+    font-weight: bold;
+  }
+
+  .customNav a{
+      color: rgba(242, 242, 242, 0.79) !important;
+  }
+
+  .customNav a:active{
+  color: white !important;
+  }
+
+  .customNav a:hover{
+    color: #C0BDD9!important;
+}
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 15px;
+    width: 243;
+    height: 48;
+    padding: 2%;
+  }
+  .nav-item {
+    margin: 0px 17px;
+  }
+  
+  .cover{
+      display: flex;
+      flex-direction: row;
+      background-image: linear-gradient(to bottom,rgba(32, 75, 115, 0.70), rgba(32, 75, 115, 0.70)),
+      url("../images/naacoverimg.png");
+      background-repeat: no-repeat;
+      align-items: center;
+      padding: 20px;
+      margin-bottom: 80px;
+      color: white;
+      height: 780px;
+      flex-direction: row;
+      transition: all 1s ease; 
+  }
+
+  .content h1{
+      font-weight: bolder;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+      font-size: 42px;
+  }
+  .content p{
+      font-size: 24px;
+  }
+.custompill{
+    font-size: 14px;
+    margin-top: 40px;
+    margin-right: 40px;
+    background: rgba(255, 255, 255, 0.45);
+    color: white;
+    padding: 2%;
+    font-weight:500;
+}
+
+.overview{
+    display: flex;
+    flex-direction: row;
+}
+
+.overview h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+}
+
+.title h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    align-self: center;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
+    margin-bottom: 40px;
+}
+
+.overviewContent h3{
+    font-weight: bold;
+}
+.overviewContent p{
+    font-size: 24;
+    line-height: 33px;
+    font-weight: lighter;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.icon img{
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.highlight{
+    font-weight:700;
+}
+
+.DesignProcess{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+
+}   
+.customdp{
+    background-color: rgba(32, 75, 115, 0.53); 
+    width: 100%;
+    margin-top: 50px;
+    padding: 2%;
+}
+
+.dpcontent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dpcontent img{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.dpcontent p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+}
+
+.titledp h1{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    align-self: center;
+    margin-top: 60px;
+    color: white;
+}
+
+.titlemp h1{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    align-self: center;
+    margin-top: 60px;
+}
+.empcontent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.empcontent img{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.empcontent h3{
+    font-weight: bold;
+    text-align: start;
+    justify-items: start;
+    padding: 1%;
+}
+
+.empcontent p{
+    font-size: 20px;
+    padding: 1%;
+    font-weight: 200;
+}
+
+.upcontent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.customup{
+    background-color: rgba(192, 189, 217, 0.51)}
+
+.upcontent p{
+    font-size: 20px;
+    padding: 0.5%;
+    font-weight: 200;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    width: 80%;
+}
+
+.sub{
+    font-size: 12px;
+    font-weight: 200;
+    color: gray;
+    justify-items: center;
+    text-align: center;
+}
