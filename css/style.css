@@ -564,3 +564,50 @@ p.sub2{
 .feedback2 img{
     padding: 1.5%;
 }
+
+/* Usability Testing */
+
+.ubcontent{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+   justify-content: center;
+}
+
+.ubcontent p{
+    font-size: 20px;
+    padding: 0.5%;
+    font-weight: 300;
+    margin-top: 56px;
+    margin-bottom: 56px;
+    width: 80%;
+    color: #204B73;
+    align-items: center;
+}
+
+.titleub h1{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+    align-self: center;
+    margin-top: 60px;
+    color: #204B73;
+}
+
+.imgUb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imgUb img{
+    padding: 2%; 
+    justify-items: start;
+}
+ 
+
