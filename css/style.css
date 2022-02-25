@@ -623,9 +623,10 @@ p.sub2{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    margin-bottom: 70px;}
-/* 
-Interactive Prototype */
+    margin-bottom: 70px;
+}
+
+/* Interactive Prototype */
 
 .ipcontent{
     display: flex;
@@ -686,10 +687,52 @@ Interactive Prototype */
     font-size: 20px;
     padding: 1%;
     font-weight: 200;
-    margin-top: 56px;
+    margin-top: 48px;
     margin-bottom: 56px;
     width: 80%;
     line-height: 40px;
+}
+
+.npContent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3%;
+}
+
+.npContent p{
+    font-size: 20px;
+    /* padding: 1%; */
+    font-weight: 200;
+    /* margin-top: 56px; */
+    margin-bottom: 56px;
+    line-height: 40px;
+}
+.icon2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.icon2 img{
+    margin-left: 50px;
+}
+/* Learn More */
+
+.lmcontent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.lmcontent h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 56px;
 }
 
 button{
@@ -721,12 +764,23 @@ footer{
     font-weight:100;
 }
 #AG{
-    width: 100px;
-    /* float: right; */
-    padding: 40px;
+    width: 100px !important;
+    /* padding: 40px; */
     align-content: center ;
     justify-items: flex-end;
     display: flex;
+}
+
+#AG img{
+width: 180px;
+height: 140px;
+}
+
+.logos{
+    display: flex;
+    align-items:center;
+    width: 180px;
+
 }
 
 .centre{
@@ -735,6 +789,7 @@ footer{
     width: 100%;
     align-items:center;
     justify-content: center;
+    /* margin: 0 auto; */
     margin-left: 12%;
 }
 
@@ -765,4 +820,12 @@ footer{
 footer h1{
     color: #DAB9E4;
     text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 24.9px;
+    margin-top: 24.9px;
+}
+
+.copyright p{
+    font-size: 12px;
 }
