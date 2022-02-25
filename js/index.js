@@ -1,3 +1,6 @@
+// Activity Tests
+console.log("Your index.js file is loaded correctly!");
+
 // Scroll
 $(document).ready(function(){
     $("a").on('click', function(event) {
@@ -13,5 +16,6 @@ $(document).ready(function(){
     });
   });
   
+
 
 
