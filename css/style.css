@@ -48,6 +48,7 @@ body{
       background-image: linear-gradient(to bottom,rgba(32, 75, 115, 0.70), rgba(32, 75, 115, 0.70)),
       url("../images/naacoverimg.png");
       background-repeat: no-repeat;
+      background: cover;
       align-items: center;
       padding: 20px;
       margin-bottom: 80px;
@@ -828,4 +829,14 @@ footer h1{
 
 .copyright p{
     font-size: 12px;
+}
+
+.wave{
+    width: 100%;
+    background: cover;
+}
+
+.wave img{
+    width: 100%;
+    object-fit: cover;
 }
